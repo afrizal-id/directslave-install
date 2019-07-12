@@ -197,7 +197,16 @@ systemctl start firewalld >> /root/install.log
 systemctl enable firewalld >> /root/install.log
 firewall-cmd --permanent --add-service=dns
 firewall-cmd --permanent --add-port=2222/tcp
+firewall-cmd --permanent --add-port=53/tcp
+firewall-cmd --permanent --add-port=443/tcp
 firewall-cmd --reload
 systemctl start firewalld >> /root/install.log
+
+echo "Checking DirectSlave and starting"
+/usr/local/directslave/bin/directslave --check
+/usr/local/directslave/bin/directslave --run
+
 echo "all done!"
+echo "Open directslave using a web browser http://your-ip-address:2222"
+echo "if failed browse using IP address, edit /usr/local/directslave/etc/directslave.conf and change the host 127.0.0.1 to your current IP address"
 exit 0;
