@@ -12,9 +12,9 @@ Running DirectSlave as secondary DNS Cluster for DirectAdmin control panel
 # Installing
 Run command:
 <br>chmod +x directslave-install.sh
-<br>./directslave-install.sh <user> <passwd> <IP server DirectAdmin>
+<br>./directslave-install.sh (user) (passwd) (IP server DirectAdmin)
 <br>for customize DirectAdmin port, please use :
-<br>./directslave-install.sh <user> <passwd> <IP server DirectAdmin:port number>
+<br>./directslave-install.sh (user) (passwd) (IP server DirectAdmin:port number)
   
 # What's New? #
 Installing DirectSlave including DirectSlave 3.2 with XSS patch
