@@ -11,10 +11,10 @@ Running DirectSlave as secondary DNS Cluster for DirectAdmin control panel
 
 # Installing
 Run command:
-<br>./da-directslave-install.sh <user> <passwd> <IP server DirectAdmin>
-  
-<br><br>for customize DirectAdmin port, please use :
-<br>./da-directslave-install.sh <user> <passwd> <IP server DirectAdmin:port>
+<br>chmod +x directslave-install.sh
+<br>./directslave-install.sh <user> <passwd> <IP server DirectAdmin>
+<br>for customize DirectAdmin port, please use :
+<br>./directslave-install.sh <user> <passwd> <IP server DirectAdmin:port number>
   
 # What's New? #
 Installing DirectSlave including DirectSlave 3.2 with XSS patch
@@ -24,4 +24,5 @@ Installing DirectSlave including DirectSlave 3.2 with XSS patch
 <br>Install check
 
 # References #
-https://directslave.com/download and https://e-padi.com
+Original script by jordivn at https://forum.directadmin.com/showthread.php?t=43924&page=22&p=278112#post278112
+<br>VPS server provided by https://e-padi.com
