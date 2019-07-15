@@ -127,7 +127,7 @@ options {
 	secroots-file   "/var/named/data/named.secroots";
 		allow-query     { any; };
 		allow-notify	{ $3; };
-		allow-transfer	{ none; };
+		allow-transfer	{ $3; };
 	/*
 	 - If you are building an AUTHORITATIVE DNS server, do NOT enable recursion.
 	 - If you are building a RECURSIVE (caching) DNS server, you need to enable
