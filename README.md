@@ -18,12 +18,12 @@ Run command:
 
 # After installation finished, change named.conf config to following
 options {
-	listen-on port 53 { any; };
-        listen-on-v6 port 53 { none; };
+<br>	listen-on port 53 { any; };
+<br>    listen-on-v6 port 53 { none; };
 
 allow-query     { any; };
-                allow-notify    { DirectAdmin_IP_server; };
-                allow-transfer  { DirectAdmin_IP_server; };
+<br>              allow-notify    { DirectAdmin_IP_server; };
+<br>              allow-transfer  { DirectAdmin_IP_server; };
                 
 # What's New? #
 Installing DirectSlave including DirectSlave 3.2 with XSS patch
