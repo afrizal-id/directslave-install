@@ -46,5 +46,5 @@ Installing DirectSlave including DirectSlave 3.2 with XSS patch
 
 # References #
 Original script by jordivn at https://forum.directadmin.com/showthread.php?t=43924&page=22&p=278112#post278112
-DirectSlave software from https://directslave.com/download
+<br>DirectSlave software from https://directslave.com/download
 <br>VPS server provided by https://e-padi.com
