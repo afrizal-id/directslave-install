@@ -207,6 +207,6 @@ echo "Checking DirectSlave and starting"
 /usr/local/directslave/bin/directslave --run
 
 echo "all done!"
-echo "Open directslave using a web browser http://your-ip-address:2222"
+echo "Open the DirectSlave Dashboard using a web browser http://your-ip-address:2222"
 echo "if failed browse using IP address, edit /usr/local/directslave/etc/directslave.conf and change the host 127.0.0.1 to your current IP address"
 exit 0;
