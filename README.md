@@ -1,5 +1,5 @@
 # directslave-install
-Install free DirectSlave for DirectAdmin control panel on CentOS 7 64 bit for free DNS Cluster
+Install free DirectSlave version 3.4.2 for DirectAdmin control panel on CentOS 7 64 bit as free DNS Cluster solutions.
 
 I have taken it and modified it to work with DirectSlave GO Advanced version dor DirectAdmin. This shell script was installed on CentOS 7 64bit machine all works no issues.
 
@@ -46,4 +46,5 @@ Installing DirectSlave including DirectSlave 3.2 with XSS patch
 
 # References #
 Original script by jordivn at https://forum.directadmin.com/showthread.php?t=43924&page=22&p=278112#post278112
+DirectSlave software from https://directslave.com/download
 <br>VPS server provided by https://e-padi.com
